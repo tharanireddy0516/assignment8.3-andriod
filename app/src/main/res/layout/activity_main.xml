@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xml layer starts here
+xml stands for extensible markup language
+it is a background code of layouts,widges etc-->
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridView"
+    android:numColumns="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharani.gridvew.MainActivity"/>
+
+    <!--GridView layout in one of the most useful layouts in android.
+       GridView is mainly useful when we want show data in grid layout like displaying images or icons.
+       This layout can be used to build applications like image viewer, audio or video players in order to show elements in grid manner.
+       layout_width indicates the width of the GridView layout
+       layout_Height indicates the height of the GridView layout
+       context indicates the package name of the respective java class
+       match parent will take complete height or width of text-->
+
+
